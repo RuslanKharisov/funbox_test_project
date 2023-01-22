@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+/* md <= Large (lg) */
+@media (max-width: 1044px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .card {
+        max-height: 509px;
+        margin: 20px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: none;
+    }
+
+    .page-cards {
+        flex-direction: column;
+    }
+}
